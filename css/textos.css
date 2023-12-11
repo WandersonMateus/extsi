@@ -22,3 +22,7 @@ h1 {
 p {
     text-indent: 40px;
 }
+
+p::selection {
+    background-color: #ccff00;
+}
