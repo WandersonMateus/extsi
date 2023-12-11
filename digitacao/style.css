@@ -24,7 +24,7 @@
 
 .box-texts .previa {
     width: 100%;
-    height: 147px;
+    height: 146px;
     padding: 20px;
     transition: .2s;
     overflow: hidden;
@@ -32,9 +32,9 @@
     text-indent: 30px;
     border-radius: 15px;
     text-align: justify;
-    background-color: rgb(228, 228, 228);
-    box-shadow: inset 0 -80px 50px #000000;
+    background: #d2d2d2;
 }
+
 .box-texts .previa:hover {
-    box-shadow: inset 0px 0px 0px;
+    transform: scale(1.05);
 }
