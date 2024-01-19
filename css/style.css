@@ -40,28 +40,18 @@
 .sub-conteiner {
     gap: 30px;
     width: 65%;
-    display: flex;
     height: 80vh;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 
-.liner {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
 
 .box {
-    width: 30%;
     height: 25%;
     display: flex;
     cursor: pointer;
-    flex-wrap: wrap;
-    border-radius: 15px;
     align-items: center;
-    justify-content: center;
 }
 .box img {
     width: 80px;
