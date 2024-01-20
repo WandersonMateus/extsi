@@ -2,7 +2,7 @@ function digitacao() {
     window.location.href = './digitacao/digitacao.html';
 }
 function excel() {
-    window.location.href = '/excel/excel.html';
+    window.location.href = '/excel/excel-bs.html';
 }
 function word() {
     window.location.href = '#Word';
