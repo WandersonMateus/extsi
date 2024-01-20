@@ -50,3 +50,22 @@ function txt09() {
 function txt10() {
     window.open('../textos/texto10.html', '_blank');
 }
+
+
+
+function escolherEx() {
+    // Use o SweetAlert para criar um alerta personalizado
+    Swal.fire({
+        title: 'Escolha uma opção:',
+        showCancelButton: true,
+        confirmButtonText: 'Excel 2016 (Essencial)',
+        cancelButtonText: 'Excel 2016 Avançado',
+    }).then((result) => {
+        // Redirecione com base na escolha do usuário
+        if (result.isConfirmed) {
+            window.location.href = "./excel/excel-bs.html";
+        } else if (result.dismiss === Swal.DismissReason.cancel) {
+            window.location.href = "./excel/excel-av.html";
+        }
+    });
+}
