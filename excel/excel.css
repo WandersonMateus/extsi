@@ -26,3 +26,13 @@ a {
     padding: 4px 70px;
     text-decoration: none;
 }
+
+
+.auxi {
+    background-color: aqua;
+    height: 100px;
+}
+.auxi:hover {
+    background-color: rgb(6, 206, 206);
+    height: 110px;
+}
