@@ -3,26 +3,26 @@
 }
 
 .ex-pdf {
-    border-radius: 5px;
-    margin: 20px 0;
-    background-color: rgb(216, 216, 216);
-    width: 300px;
-    transition: .3s;
     height: 50px;
+    width: 300px;
+    margin: 20px 0;
     display: flex;
-    justify-content: center;
+    transition: .3s;
+    border-radius: 5px;
     align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
 }
 .ex-pdf:hover {
-    background-color: rgb(198, 196, 196);
     width: 300px;
     height: 60px;
+    background-color: rgb(198, 196, 196);
 }
 
 a {
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
     padding: 4px 70px;
     text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    font-size: 21px;
 }
