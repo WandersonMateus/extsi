@@ -1,17 +1,14 @@
 function digitacao() {
     window.location.href = './digitacao/digitacao.html';
 }
-// function excel() {
-//     window.location.href = '/excel/excel-bs.html';
-// }
+function excel() {
+    window.location.href = '/excel/excel-bs.html';
+}
 function word() {
     window.location.href = '#Word';
 }
 function powerpoint() {
-    window.location.href = '#PowerPoint';
-}
-function powerpoint() {
-    window.location.href = '/powerpoint/pwpoint.html';
+    window.location.href = './powerpoint/pwpoint-ex.html';
 }
 
 
