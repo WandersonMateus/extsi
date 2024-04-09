@@ -4,8 +4,8 @@ function digitacao() {
 function excel() {
     window.location.href = '/excel/excel-bs.html';
 }
-function word() {
-    window.location.href = '#Word';
+function windows() {
+    window.location.href = '/windows_10_v2/passopasso.html';
 }
 function powerpoint() {
     window.location.href = './powerpoint/pwpoint-ex.html';
